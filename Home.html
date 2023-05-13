@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/Home.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet" />
+  <script src="Js/Home.js"></script>
+  <title>Home</title>
+  <link rel="icon" type="images/x-icon" href="CSS/Images/Logo.jpg">
+</head>
+
+<body>
+  <header class="header">
+    <div class="left">Animal Forest</div>
+
+    <div class="mid">
+      <ul class="navbar">
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Category.html" target="_blank">Blogs</a></li>
+        <li><a href="#footer0" class="under">About Us</a></li>
+        <li>
+          <a href="#footer0" class="under" id="Contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="right">
+      <button class="btn1" onclick="myFunction()">Call Us</button>
+      <button class="btn1" onclick="myFunction()">Email Us</button>
+    </div>
+  </header>
+  <div class="container">
+    <h1>REGISTER NOW</h1>
+    <form name="myForm" action="action.php" onsubmit="return validateForm()" method="post">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Enter Your Name" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="email" placeholder="Enter Your Email" />
+      </div>
+      <div class="form-group">
+        <input type="text" name="mobile" placeholder="Enter Your Mobile No." />
+      </div>
+      <div class="form-group">
+        <input type="password" name="password" placeholder="Enter Your Password" />
+      </div>
+      <button class="btn2" name="submit" onclick="mysubmit()">Submit</button>
+    </form>
+  </div>
+<br><br><br><br>
+  <footer class="footer" id="footer0">
+    <div>
+    <h1>www.AnimalForest.com</h1>
+      </div>
+      <div class="footer1 ">
+        Connect with us at<div class="social-media">
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+        </a>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </div>
+      </div>
+      <div class="footer2">
+        <div class="product">
+          <div class="heading">Products</div>
+          <div class="div">Sell your Products</div>
+          <div class="div">Advertise</div>
+          <div class="div">Pricing</div>
+          <div class="div">Product Buisness</div>
+  
+        </div>
+        <div class="services">
+          <div class="heading">Services</div>
+          <div class="div">Return</div>
+          <div class="div">Cash Back</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Others</div>
+        </div>
+        <div class="Company">
+          <div class="heading">Company</div>
+          <div class="div">Complaint</div>
+          <div class="div">Careers</div>
+          <div class="div">Affiliate Marketing</div>
+          <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+          <div class="heading">Get Help</div>
+          <div class="div">Help Center</div>
+          <div class="div">Privacy Policy</div>
+          <div class="div">Terms</div>
+          <div class="div">Login</div>
+        </div>
+      </div>
+      <div class="footer3">Copyright © <h4>ShoPperZ</h4> 2021-2028</div>
+  </footer>
+</body>
+
+</html>

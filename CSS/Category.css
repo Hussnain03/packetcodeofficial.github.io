@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("Images/Background.jpg");
+  font-family: "Alkalami", serif;
+}
+
+.header {
+  font-size: x-large;
+}
+.left {
+  font-size: 32px;
+  position: absolute;
+  left: 45px;
+  top: 15px;
+  display: block;
+  margin-left: 10px;
+  font-family: "Alkalami", serif;
+  color: brown;
+}
+
+.mid {
+  display: block;
+  width: 43%;
+  margin: 3% auto;
+}
+
+.right {
+  position: absolute;
+  right: 34px;
+  top: 15px;
+  display: inline-block;
+  font-family: "Alkalami", serif;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 34px 23px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: rgb(55, 68, 81);
+}
+
+.btn {
+  margin: 0px 9px;
+  background-color: brown;
+  color: white;
+  padding: 8px 8px;
+  border-radius: 12px;
+  border: 2px solid grey;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.right :hover {
+  color: rgb(55, 68, 81);
+}
